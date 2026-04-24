@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>А-метео - агрометеосервис, прогноз погоды для Фермеров</title>
+	<meta name="description" content="Предлагаем сверхточный коммерческий метеорологический сервис и гиперлокальные метеостанции. Метеоданные для аграрного сектора РФ и других отраслей, эффективность которых завист от точности прогноза погоды">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="yandex-verification" content="82623106ce8476b7" />
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#eb6246">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+
+	<link rel="stylesheet" href="libs/fancybox/fancybox.css">
+	<link rel="stylesheet" href="libs/owl/owl.carousel.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(57388798, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/57388798" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+
+	<header>
+		<div class="box">
+			<div class="site-header">
+				<div class="logo">
+					<img src="img/logo.png" alt="Logo">
+				</div>
+				<div class="main-nav">
+					<button class="menu_toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<ul class="menu">
+						<li>
+							<a href="#our-product">Продукт</a>
+						</li>
+						<li>
+							<a href="#meteostations">Метеостанции</a>
+						</li>
+						<li>
+							<a href="#app-block">Приложение</a>
+						</li>
+						<li>
+							<a href="#about">О нас</a>
+						</li>
+						<li>
+							<a href="#contacts-block">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-info">
+					<div class="contacts">
+						<a href="tel:+74951396739" class="tel">
+							<img src="img/telephone-icon.png" alt="telephone-icon">
+							+7 495 139 67 39
+						</a>
+						<a href="mailto:info@a-meteo.ru">info@a-meteo.ru</a>
+					</div>
+					<a href="#" class="dft-button blue_theme">Войти в приложение</a>
+					<div class="lang-switch">
+						<a href="#" class="active">RU</a>
+						<a href="index_eng.html">EN</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="box">
+				<div class="text">
+					<div class="main-title">
+						<p>профессиональный</p>
+						<h1>АГРО МЕТЕО СЕРВИС</h1>
+					</div>
+					<p>Получите аналитические метеопоказания высокой точности, и рекомендации по их применению для принятия решений, обеспечивающих эффективность и прибыльность Вашего бизнеса</p>
+					<div class="buttons-row">
+						<a href="#form-modal" data-fancybox class="dft-button blue_theme form-toggle">Записаться на демонстрацию</a>
+						<a href="#our-product" class="smoothscroll dft-button black_theme">Услуги и метеостанции</a>
+					</div>
+				</div>
+			<!--	<div class="video_block">
+					<a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video_toggle">
+						<div class="overlay">
+							<div class="watermark">
+								<img src="img/logo.png" alt="watermark">
+							</div>
+							<img src="img/play.png" alt="play bytton">
+							<p>Гиперлокальные метеостанции</p>
+						</div>
+						<img src="img/video_bg.jpg" alt="video_bg">
+					</a>
+				</div>-->
+			</div>
+		</section>
+		<div class="our-product" id="our-product">
+			<div class="box">
+				<div class="block-title">
+					<h2>Наш продукт</h2>
+				</div>
+				<div class="our-product-items">
+					<div class="product">
+						<div class="image">
+							<img src="img/prod_img_1.png" alt="Почасовой метеопрогноз на 14 дней">
+						</div>
+						<div class="name">
+							<p>Почасовой метеопрогноз на <br>72 часа. Посуточный на 15 дней</p>
+						</div>
+					</div>
+					<div class="product">
+						<div class="image">
+							<img src="img/prod_img_2.jpg" alt="Подписка “Погодный часовой” (WSO)">
+						</div>
+						<div class="name">
+							<p>Подписка “Погодный Часовой” (WSO)</p>
+						</div>
+					</div>
+				</div>
+				<div class="text">
+					<p>Предлагаем сверхточный метеопрогноз на индивидуальных полях</p>
+					<p>При помощи высокоточных метеопоказаний и гиперокальных метеостанций, Вы можете принять <br>правильное решение при планировании технологических операций, сократить расходы и увеличить производство</p>
+					<p>Вы сможете попробовать все агросервисные функции нашей информационной платформы <br>в режиме реального времени</p>
+					<div class="buttons-row">
+						<a href="#form-modal" data-fancybox class="form-toggle dft-button blue_theme">Получить пробный период прогноза</a>
+						<a href="#connection" class="smoothscroll dft-button yellow_theme">Зарегистрировать свою метеостанцию</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="app-block" id="app-block">
+			<div class="inner">
+				<div class="title">
+					<h2>Приложение “Погодный часовой” для каждой метеостанции</h2>
+				</div>
+				<p>Мобильное приложение может быть установлено на любых компьютерных и мобильных устройствах</p>
+				<a href="#connection" class="smoothscroll dft-button blue_theme">Подключиться</a>
+				<div class="buttons-row">
+					<a href="#">
+						<img src="img/google_play.png" alt="google play">
+					</a>	
+					<a href="#">
+						<img src="img/app_store.png" alt="app store">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="meteostations" id="meteostations">
+			<div class="box">
+				<div class="block-title">
+					<h2>Гиперлокальные метеостанции</h2>
+				</div>
+				<div class="meteostations-items">
+					<div class="meteostation">
+						<div class="image">
+							<img src="img/attachment.png" alt="Кабельная">
+						</div>
+						<div class="name">
+							<p>Кабельная</p>
+						</div>
+					</div>
+					<div class="meteostation">
+						<div class="image">
+							<img src="img/attachment_2.png" alt="беспроводная">
+						</div>
+						<div class="name">
+							<p>беспроводная</p>
+						</div>
+					</div>
+				</div>
+				<div class="text">
+					<p>Осадки - Температура - Дни выращивания - Точка росы - Эвапотранспирация - Влажность воздуха Скорость и направление ветра - Влажность почвы - Влажность листьев (опционно) - Температура почвы - Солнечная радиация (опционно)</p>
+					<a href="#form-modal" data-fancybox class="form-toggle dft-button blue_theme">Узнать характеристики и цену</a>
+					<p>Бесплатно предоставим тест-драйв</p>
+				</div>
+			</div>
+		</div>
+		<div class="advantages">
+			<div class="box">
+				<div class="block-title white-title">
+					<h2>преимущества нашего сервиса</h2>
+				</div>
+				<div class="advantages-items">
+					<div class="item">
+						<div class="icon">
+							<img src="img/advantage_icon_1.png" alt="Уникальная технология">
+						</div>
+						<h5>Уникальная технология</h5>
+						<p>Статический прогноз NCAR DICost совмещает в себе все модули в одну систему прогнозов. Модель прогнозов с “адаптивным обучением” Запатентованные системы метеорологического предупреждения GIS</p>
+					</div>
+					<div class="item">
+						<div class="icon">
+							<img src="img/advantage_icon_2.png" alt="Опытная команда">
+						</div>
+						<h5>Опытная команда</h5>
+						<p>Свыше 100 профессиональных метеорологов, доступных 24 часа в сутки, 365 дней в году. 4 аттестованных метеоролога, аккредитованных Американским метеорологическим обществом. Бюро метеорологических прогнозов по всему миру</p>
+					</div>
+					<div class="item">
+						<div class="icon">
+							<img src="img/advantage_icon_3.png" alt="Прогнозы высокого качества">
+						</div>
+						<h5>Прогнозы высокого качества</h5>
+						<p>По независимым оценкам агенства Forecastwatch компания занимает 1-ое место среди самых точных метеорологических прогнозов: 10 лет подряд в США и 2 года подряд в Европе На 40% точнее, чем у ведущих интернет - провайдеров</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="planning">
+			<div class="box">
+				<div class="block-title">
+					<h2>оповещение и планирование</h2>
+				</div>
+				<div class="planning-inner">
+					<div class="left">
+						<div class="tablet">
+							<img src="img/tablet-bg.png" alt="tablet">
+						</div>
+						<div class="phone_slider">
+							<div class="slides">
+								<img src="img/iphone-slide.jpg" alt="slide 1">
+								<img src="img/screen1.png" alt="slide 2">
+								<img src="img/screen2.png" alt="slide 3">
+							</div>
+							<div id="carousel-custom-dots" class="owl-dots">
+								
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<ul class="list">
+							<li>Оповещение о множестве погодных условий</li>
+							<li>Возможность настройки под Ваши критерии, и критические пороговые значения</li>
+							<li>Компания наблюдает за погодными условиями, и Вам не приходится этого делать</li>
+							<li>Календарь планирования работ</li>
+							<li>Ежечасно - на ближайшие 72 часа. Ежедневно - на ближайшие 15 дней</li>
+							<li>Планирование операций и ресурсов, специальные группы персонала</li>
+							<li>Отображение на экране ПК и мобильных устройствах</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about" id="about">
+			<div class="box">
+				<div class="block-title white-title">
+					<h2>О компании</h2>
+				</div>
+				<div class="text">
+					<h4>A-Meteo = Точный Прогноз = Успешный Клиент</h4>
+					<p><strong>НАША МИССИЯ:</strong> Дать сверхточный прогноз и его интерпритацию для участников аграрного сектора: фермерам, агрохолдингам, страховым компаниям, страхующим аграрный сектор, зерновым трейдерам и т.д., помочь им минимизировать затраты и повысить эффективность бизнеса.</p>
+					<p>Также структурам и организациям в других индустриях, эффективность работы которых сильно зависит от погоды, и они нуждаются в свехточном погодном прогнозе, и его интерпретации для принятия верных бизнес-решений.</p>
+				</div>
+			</div>
+		</div>
+		<div class="connection" id="connection">
+			<div class="box">
+				<div class="block-title">
+					<h2>ПОДКЛЮЧЕНИЕ</h2>
+				</div>
+				<div class="forms">
+					<div class="form">
+						<form class="default-form">
+							<input type="text" hidden="" name="donthasstation">
+							<div class="title">
+								<p>Вы купили метеостанцию у нас</p>
+								<input type="text" name="title" hidden="" class="input-title" value="Купили метеостанцию у нас">
+							</div>
+							<p>Оставьте заявку, чтобы подключиться</p>
+							<label>
+								<p>Серийный норме (ID):</p>
+								<input type="text" name="deviceid" required="">
+							</label>
+							<label>
+								<p>Key code:</p>
+								<input type="text" name="keycode" required="">
+							</label>
+							<label>
+								<p>Широта:</p>
+								<input type="text" name="latitude">
+							</label>
+							<label>
+								<p>Долгота:</p>
+								<input type="text" name="longitude">
+							</label>
+							<label>
+								<p>Название станции:</p>
+								<input type="text" name="stationname">
+							</label>
+							<label>
+								<p>VAR name:</p>
+								<input type="text" name="varname">
+							</label>
+							<label>
+								<p>VAR acct#:</p>
+								<input type="text" name="varacct">
+							</label>
+							<button class="submit dft-button blue_theme" type="submit">Подключить</button>
+							<p class="tip">Отправляя данную форму, Вы даете свое согласие на обработку персональных данных</p>
+						</form>
+					</div>
+					<div class="form">
+						<form class="default-form">
+							<input type="text" hidden="" name="hasstation">
+							<div class="title">
+								<p>У вас уже есть метеостанция</p>
+								<input type="text" name="title" hidden="" class="input-title" value="Уже есть метеостанция">
+							</div>
+							<p>Пожалуйста, укажите свои учетные данные для входа в программы WeatherLink, FieldClimate или CaipoWeb programs:</p>
+							<div class="radios">
+								<label for="davis" class="radio">
+									<input type="radio" name="meteostation" value="davis" id="davis" hidden="" required="">
+									<span></span>
+									<p>Метеостанция Davis</p>
+								</label>
+								<label for="imetos" class="radio">
+									<input type="radio" name="meteostation" value="imetos" id="imetos" hidden="" required="">
+									<span></span>
+									<p>Метеостанция iMetos</p>
+								</label>
+								<label for="caipos" class="radio">
+									<input type="radio" name="meteostation" value="caipos" id="caipos" hidden="" required="">
+									<span></span>
+									<p>Метеостанция Caipos</p>
+								</label>
+								<label for="salyt" class="radio">
+									<input type="radio" name="meteostation" value="salyt" id="salyt" hidden="" required="">
+									<span></span>
+									<p>Метеостанция Сокол</p>
+								</label>
+							</div>
+							<label>
+								<p>Логин:</p>
+								<input type="text" name="login" required="">
+							</label>
+							<label>
+								<p>Пароль:</p>
+								<input type="password" name="password" required="">
+							</label>
+							<label>
+								<p>Телефон:</p>
+								<input type="tel" name="phone" required="">
+							</label>
+							<label>
+								<p>E-Mail:</p>
+								<input type="email" name="email">
+							</label>
+							<button type="submit" class="submit dft-button blue_theme">Подключить</button>
+							<p class="tip">Отправляя данную форму, Вы даете свое согласие на обработку персональных данных </p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contacts-block" id="contacts-block">
+			<div class="box">
+				<div class="text">
+					<div class="block-title white-title">
+						<h2>О НАС</h2>
+					</div>
+					<p>Свяжитесь с нами :</p>
+					<ul class="info">
+						<li>
+							<div class="icon">
+								<img src="img/location.png" alt="location">
+							</div>
+							<p>ул.Тверская, д. 16, стр. 1, 
+
+<br>этаж 9, офис 901Б</p>
+						</li>
+						<li>
+							<div class="icon">
+								<img src="img/time.png" alt="time">
+							</div>
+							<p>Пн-Пт: с 8.00 до 20.00</p>
+						</li>
+						<li>
+							<div class="icon">
+								<img src="img/phone-left.png" alt="phone-left">
+							</div>
+							<a href="tel:+74951396739">+7 495 139 67 39</a>
+						</li>
+						<li>
+							<div class="icon">
+								<img src="img/mail.png" alt="mail">
+							</div>
+							<a href="mailto:info@a-meteo.ru">info@a-meteo.ru</a>
+						</li>
+					</ul>
+					<p>Мы в социальных сетях и мессенджерах:</p>
+					<div class="socials">
+						<a href="#"><img src="img/fb.png" alt="facebook"></a>
+						<a href="#"><img src="img/twt.png" alt="twitter"></a>
+						<a href="#"><img src="img/ig.png" alt="instagram"></a>
+					</div>
+				</div>
+				<div class="map-block">
+					<div id="map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A298a35459934d41ac5f88d1896a13170dc51e22106427895d3fcee1c351e349a&amp;width=100%25&amp;height=700&amp;lang=ru_RU&amp;scroll=true"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="box">
+			<div class="site-footer">
+				<div class="logo">
+					<img src="img/logo.png" alt="logo">
+				</div>
+				<ul class="foot-nav">
+					<li><a href="#our-product">Продукт</a></li>
+					<li><a href="#app-block">Метеостанции</a></li>
+					<li><a href="#app-block">Приложение</a></li>
+					<li><a href="#about">О нас</a></li>
+					<li><a href="#contacts-block">Контакты</a></li>
+				</ul>
+				<div class="contacts">
+					<a href="tel:+74951396739" class="tel"><img src="img/telephone-icon.png" alt="telephone-icon">+7 495 139 67 39</a>
+					<a href="mailto:info@a-meteo.ru">info@a-meteo.ru</a>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>© 2020 a-meteo. Все права защищены</p>
+				<a href="#policy" data-fancybox>Политика конфидинциальности</a>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="hidden">
+		<div class="custom-modal" id="form-modal">
+			<h4>Отправить заявку</h4>
+			<p>Заполните форму заявки и наш менеджер свяжется с Вами в течение нескольких минут</p>
+			<form action="#" autocomplete="off" class="default-form">
+				<input type="text" hidden="" name="modalform">
+				<input type="text" name="title" hidden="" class="input-title">
+				<label>
+					<p>Имя:</p>
+					<input type="text" name="name" required="">
+				</label>
+				<label>
+					<p>Телефон:</p>
+					<input type="tel" name="phone" required="">
+				</label>
+				<label>
+					<p>E-Mail:</p>
+					<input type="email" name="email" required="">
+				</label>
+				<button class="submit dft-button blue_theme" type="submit">Отправить</button>
+				<p class="tip">Отправляя данную форму, Вы даете свое согласие на обработку персональных данных </p>
+			</form>
+		</div>
+		<div class="custom-modal" id="thanks">
+			<h4>Спасибо за заявку!</h4>
+			<p>Наш менеджер свяжется с Вами в течение нескольких минут</p>
+		</div>
+		<div class="custom-modal" id="error-form">
+			<h4>Ошибка!</h4>
+			<p>Попробуйте отправить позже</p>
+		</div>
+		<div class="custom-modal" id="policy">
+			<h4>Политика конфидинциальности</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat sit cum necessitatibus tempore quidem ipsam et, earum perspiciatis voluptatum dignissimos, possimus magnam quo sunt expedita saepe dicta blanditiis fugiat eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, numquam quidem placeat rem, libero in fugiat alias rerum explicabo aliquid error aliquam, accusantium eos, officia sapiente iure magni ea quos!</p>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, unde quaerat hic. Consequuntur asperiores aliquam dolores nam porro error sapiente dolorem praesentium quae repellat. Necessitatibus alias, ipsa placeat provident praesentium.</p>
+		</div>
+	</div>
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="libs/fancybox/fancybox.js"></script>
+	<script src="libs/owl/owl.carousel.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

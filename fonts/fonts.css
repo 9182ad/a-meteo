@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Gilroy Light';
+	src: url('Gilroy-Light.eot');
+	src: url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+	url('Gilroy-Light.woff') format('woff'),
+	url('Gilroy-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Futura Bold';
+	src: url('futurabold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Futura Regular';
+	src: url('futuraregular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
